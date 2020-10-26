@@ -24,6 +24,15 @@
         </mah:WindowCommands>
     </mah:MetroWindow.LeftWindowCommands>
 
+    <!--<mah:MetroWindow.RightWindowCommands>
+        <mah:WindowCommands>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Style="{StaticResource MaterialDesignTabRadioButton}" IsChecked="True" Content="顶部导航1" />
+                <RadioButton Style="{StaticResource MaterialDesignTabRadioButton}" IsChecked="False" Content="顶部导航2" />
+                <RadioButton Style="{StaticResource MaterialDesignTabRadioButton}" IsChecked="False" Content="顶部导航3" />
+            </StackPanel>
+        </mah:WindowCommands>
+    </mah:MetroWindow.RightWindowCommands>-->
 
     <Grid>
         <Grid.RowDefinitions>
@@ -31,6 +40,6 @@
             <RowDefinition Height="30" />
         </Grid.RowDefinitions>
         <ContentControl prism:RegionManager.RegionName="MainRegion"></ContentControl>
-        <ContentControl prism:RegionManager.RegionName="RightRegion" Grid.Row="1"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="RightCopyRegion" Grid.Row="1"></ContentControl>
     </Grid>
 </mah:MetroWindow>

@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Akanami.FastDev.Client.ViewModels
 {
-    public class RightViewModel : BindableBase
+    public class RightCopyViewModel : BindableBase
     {
-        public RightViewModel(ISoftwareInformationService softwareInformationService)
+        public RightCopyViewModel(ISoftwareInformationService softwareInformationService)
         {
             this.Company = softwareInformationService.CopyRight;
             this.Version = softwareInformationService.Version;

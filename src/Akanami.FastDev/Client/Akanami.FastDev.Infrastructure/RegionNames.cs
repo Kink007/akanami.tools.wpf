@@ -13,6 +13,6 @@ namespace Akanami.FastDev.Infrastructure
         /// <summary>
         /// 版权区域
         /// </summary>
-        public static readonly string RightRegion = "RightRegion";
+        public static readonly string RightCopyRegion = "RightCopyRegion";
     }
 }

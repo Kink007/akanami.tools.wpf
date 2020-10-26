@@ -16,9 +16,9 @@ namespace Akanami.FastDev.Client.Views
     /// <summary>
     /// RightView.xaml 的交互逻辑
     /// </summary>
-    public partial class RightView : UserControl
+    public partial class RightCopyView : UserControl
     {
-        public RightView()
+        public RightCopyView()
         {
             InitializeComponent();
         }

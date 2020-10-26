@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\RightView.xaml.cs">
+    <Compile Update="Views\RightCopyView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\WelcomeView.xaml.cs">
@@ -18,7 +18,7 @@
     <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\RightView.xaml">
+    <Page Update="Views\RightCopyView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\WelcomeView.xaml">
