@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using Akanami.FastDev.Client.Service;
+using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,11 @@ namespace Akanami.FastDev.Client.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {
+        public MainWindowViewModel(ISoftwareInformationService softwareInformationService)
+        {
+            this.Title = softwareInformationService.Name;
+        }
+
         string _title = "快速开发工具";
 
         public string Title

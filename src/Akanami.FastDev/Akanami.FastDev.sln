@@ -11,11 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{23ED
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akanami.FastDev.Client", "Client\Akanami.FastDev.Client\Akanami.FastDev.Client.csproj", "{58D14D34-8642-4E85-94C0-980E0817DA0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.UI.WPF", "Common\Akanami.UI.WPF\Akanami.UI.WPF.csproj", "{A32E3DD7-2595-47F2-9E66-B2E04FB1B0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akanami.UI.WPF", "Common\Akanami.UI.WPF\Akanami.UI.WPF.csproj", "{A32E3DD7-2595-47F2-9E66-B2E04FB1B0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.FastDev.Infrastructure", "Client\Akanami.FastDev.Infrastructure\Akanami.FastDev.Infrastructure.csproj", "{1D2AB177-9913-48B4-91C5-546BA10AFDD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akanami.FastDev.Infrastructure", "Client\Akanami.FastDev.Infrastructure\Akanami.FastDev.Infrastructure.csproj", "{1D2AB177-9913-48B4-91C5-546BA10AFDD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.FastDev.UI", "Client\Akanami.FastDev.UI\Akanami.FastDev.UI.csproj", "{85F098A1-9951-4725-88F2-9F23C62B0DD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akanami.FastDev.UI", "Client\Akanami.FastDev.UI\Akanami.FastDev.UI.csproj", "{85F098A1-9951-4725-88F2-9F23C62B0DD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{2F748F00-07EE-4E98-80B3-120FA9586DCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,7 @@ Global
 		{A32E3DD7-2595-47F2-9E66-B2E04FB1B0CD} = {AFA3EC5F-6820-4CA9-9855-3B6F43C63452}
 		{1D2AB177-9913-48B4-91C5-546BA10AFDD1} = {78CA7136-5406-4E29-B146-83AB482F217E}
 		{85F098A1-9951-4725-88F2-9F23C62B0DD0} = {78CA7136-5406-4E29-B146-83AB482F217E}
+		{2F748F00-07EE-4E98-80B3-120FA9586DCC} = {23EDD2D0-1840-4D53-A686-FDA85F3250C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D72B4268-7A3D-4A32-938A-C5169ECCA2EA}

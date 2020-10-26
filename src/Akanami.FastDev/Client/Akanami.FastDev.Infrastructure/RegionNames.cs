@@ -9,5 +9,10 @@ namespace Akanami.FastDev.Infrastructure
         public static readonly string TopMenuRegion = "TopMenuRegion";
 
         public static readonly string MainRegion = "MainRegion";
+
+        /// <summary>
+        /// 版权区域
+        /// </summary>
+        public static readonly string RightRegion = "RightRegion";
     }
 }

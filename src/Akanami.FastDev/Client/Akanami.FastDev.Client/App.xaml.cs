@@ -1,4 +1,6 @@
-﻿using Akanami.FastDev.Client.Views;
+﻿using Akanami.FastDev.Client.Service;
+using Akanami.FastDev.Client.Service.Impl;
+using Akanami.FastDev.Client.Views;
 using Prism.Ioc;
 using Prism.Unity;
 using System.Windows;
@@ -17,7 +19,7 @@ namespace Akanami.FastDev.Client
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            
+            containerRegistry.Register<ISoftwareInformationService, SoftwareInformationServiceImpl>();   
         }
     }
 }

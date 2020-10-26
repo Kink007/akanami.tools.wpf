@@ -15,7 +15,7 @@
 
     <mah:MetroWindow.LeftWindowCommands>
         <mah:WindowCommands>
-            <Button Command="{Binding OpenGitHubCommand}" ToolTip="Open up the GitHub site">
+            <Button Command="{Binding OpenGitHubCommand}" ToolTip="查看Github源码">
                 <TextBlock Style="{DynamicResource AkaIcons}" Text="&#xe8e1;" />
                 <!--<mahIcon:PackIconModern Width="22"
                                   Height="22"
@@ -26,6 +26,11 @@
 
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
         <ContentControl prism:RegionManager.RegionName="MainRegion"></ContentControl>
+        <ContentControl prism:RegionManager.RegionName="RightRegion" Grid.Row="1"></ContentControl>
     </Grid>
 </mah:MetroWindow>
