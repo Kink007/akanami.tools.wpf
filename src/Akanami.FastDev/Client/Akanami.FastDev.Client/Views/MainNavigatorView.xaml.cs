@@ -14,11 +14,11 @@ using System.Windows.Shapes;
 namespace Akanami.FastDev.Client.Views
 {
     /// <summary>
-    /// WelcomeView.xaml 的交互逻辑
+    /// MainNavigatorView.xaml 的交互逻辑
     /// </summary>
-    public partial class WelcomeView : UserControl
+    public partial class MainNavigatorView : UserControl
     {
-        public WelcomeView()
+        public MainNavigatorView()
         {
             InitializeComponent();
         }

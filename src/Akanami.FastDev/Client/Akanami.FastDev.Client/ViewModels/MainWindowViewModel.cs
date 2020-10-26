@@ -16,7 +16,7 @@ namespace Akanami.FastDev.Client.ViewModels
             this.Title = softwareInformationService.Name;
         }
 
-        string _title = "快速开发工具";
+        string _title = "";
 
         public string Title
         {

@@ -29,7 +29,7 @@ namespace Akanami.FastDev.Client.Views
         {
             InitializeComponent();
 
-            regionManager.RegisterViewWithRegion(RegionNames.MainRegion, typeof(WelcomeView));
+            regionManager.RegisterViewWithRegion(RegionNames.MainRegion, typeof(MainNavigatorView));
             regionManager.RegisterViewWithRegion(RegionNames.RightCopyRegion, typeof(RightCopyView));
         }
     }

@@ -7,21 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\RightCopyView.xaml.cs">
+    <Compile Update="Views\MainNavigatorView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\WelcomeView.xaml.cs">
+    <Compile Update="Views\RightCopyView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Views\MainNavigatorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\RightCopyView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\WelcomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
