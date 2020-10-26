@@ -3,3 +3,15 @@
 ################################################################################
 
 *.suo
+*.sqlite
+/.vs/VSWorkspaceState.json
+/src/Akanami.FastDev/Client/Akanami.FastDev.Client/bin/Debug/netcoreapp3.1
+/src/Akanami.FastDev/Client/Akanami.FastDev.Client/obj/Debug/netcoreapp3.1
+/src/Akanami.FastDev/Client/Akanami.FastDev.Client/obj
+/src/Akanami.FastDev/Common/Akanami.UI.WPF/obj
+/src/Akanami.FastDev/Client/Akanami.FastDev.Infrastructure/bin/Debug/netcoreapp3.1
+/src/Akanami.FastDev/Client/Akanami.FastDev.Infrastructure/obj
+/src/Akanami.FastDev/Client/Akanami.FastDev.UI/bin/Debug/netcoreapp3.1
+/src/Akanami.FastDev/Client/Akanami.FastDev.UI/obj
+/src/Akanami.FastDev/Common/Akanami.UI.WPF/bin/Debug/netcoreapp3.1
+/src/Akanami.FastDev/.vs/Akanami.FastDev/DesignTimeBuild
