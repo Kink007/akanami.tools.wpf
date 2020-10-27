@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>../../../../publish/debug/</OutputPath>
+    <OutputPath></OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Modules\QuickStart\Akanami.FastDev.QuickStart\Akanami.FastDev.QuickStart.csproj" />
     <ProjectReference Include="..\Akanami.FastDev.Infrastructure\Akanami.FastDev.Infrastructure.csproj" />
     <ProjectReference Include="..\Akanami.FastDev.UI\Akanami.FastDev.UI.csproj" />
   </ItemGroup>
@@ -28,9 +29,5 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="IF EXIST &quot;$(TargetDir).\lib&quot; DEL &quot;$(TargetDir).\lib&quot; /Q&#xD;&#xA;IF NOT EXIST &quot;$(TargetDir).\lib&quot; MD &quot;$(TargetDir).\lib&quot;&#xD;&#xA;" />
-  </Target>
 
 </Project>

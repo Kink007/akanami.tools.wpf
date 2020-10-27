@@ -39,6 +39,7 @@
             <RowDefinition />
             <RowDefinition Height="30" />
         </Grid.RowDefinitions>
+       
         <ContentControl 
             prism:RegionManager.RegionName="MainRegion" 
             Margin="4"
