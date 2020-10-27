@@ -15,7 +15,7 @@
 
     <mah:MetroWindow.LeftWindowCommands>
         <mah:WindowCommands>
-            <Button Command="{Binding OpenGitHubCommand}" ToolTip="查看Github源码">
+            <Button Command="{Binding OpenGitHubCommand}" Cursor="Hand" ToolTip="查看Github源码">
                 <TextBlock Style="{DynamicResource AkaIcons}" Text="&#xe8e1;" />
                 <!--<mahIcon:PackIconModern Width="22"
                                   Height="22"
