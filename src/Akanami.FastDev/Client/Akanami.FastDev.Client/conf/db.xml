@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-<database>
-  <!--快速启动模块的本地存储数据库-->
-  <db name="quickstart" connection="" />
-</database>

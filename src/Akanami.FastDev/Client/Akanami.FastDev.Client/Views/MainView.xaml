@@ -1,0 +1,77 @@
+﻿<Window x:Class="Akanami.FastDev.Client.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Akanami.FastDev.Client.Views"
+        xmlns:control="clr-namespace:Akanami.FastDev.Infrastructure.Controls;assembly=Akanami.FastDev.Infrastructure"
+        mc:Ignorable="d"
+        Title="Akanami的工具" 
+        Height="900" 
+        Width="1600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        Background="Transparent"
+        BorderThickness="0"
+        AllowsTransparency="True"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        >
+    <Grid Background="{DynamicResource COLOR_BODY_BACKGROUND}">
+        <Grid.Effect>
+            <DropShadowEffect Opacity="0.3" 
+                                  Direction="315" 
+                                  BlurRadius="5" 
+                                  ShadowDepth="5" />
+        </Grid.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Top -->
+            <Grid Grid.Row="0" 
+                      Background="{DynamicResource COLOR_TOP_BACKGROUND}"
+                      >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <!--最大化、最小化、关闭-->
+                <StackPanel Grid.Column="2" 
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                Margin="5 0">
+                    <!--最小化-->
+                    <control:IconButton x:Name="btnWindowMinisize" 
+                                            Icon="&#xe67a;" 
+                                            Margin="5 0"
+                                            Click="btnWindowMinisize_Click"
+                                            />
+                    <!--最大化-->
+                    <control:IconButton x:Name="btnWindowMaxsize"
+                                            Icon="&#xe675;" 
+                                            Margin="5 0"
+                                            Click="btnWindowMaxsize_Click" />
+                    <!--缩小-->
+                    <control:IconButton x:Name="btnWindowShrink" 
+                                            Icon="&#xe676;" 
+                                            Margin="5 0"
+                                            Visibility="Collapsed"
+                                            Click="btnWindowShrink_Click" />
+                    <!--关闭-->
+                    <control:IconButton x:Name="btnWindowClose"
+                                            Icon="&#xe685;"
+                                            Margin="5 0"
+                                            Click="btnWindowClose_Click" />
+                </StackPanel>
+
+                <Border BorderThickness="0 0 0 1" Grid.ColumnSpan="3" 
+                        BorderBrush="{DynamicResource COLOR_SPLITER}" />
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

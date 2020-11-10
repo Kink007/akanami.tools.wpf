@@ -19,3 +19,13 @@
 /src/Akanami.FastDev/Background/Akanami.FastDev.Service/obj
 /src/Akanami.FastDev/Modules/QuickStart/Akanami.FastDev.QuickStart/bin/Debug/netcoreapp3.1
 /src/Akanami.FastDev/Modules/QuickStart/Akanami.FastDev.QuickStart/obj
+/src/Akanami.FastDev/Client/Akanami.FastDev.Client/bin/Debug
+/src/Akanami.FastDev/Common/Akanami.FastDev.Infrastructure/bin/Debug
+/src/Akanami.FastDev/Common/Akanami.FastDev.Infrastructure/obj/Debug
+/src/Akanami.FastDev/packages/MaterialDesignColors.1.2.7
+/src/Akanami.FastDev/packages/MaterialDesignThemes.3.2.0
+/src/Akanami.FastDev/packages/Microsoft.Xaml.Behaviors.Wpf.1.1.19
+/src/Akanami.FastDev/packages/Prism.Core.8.0.0.1909
+/src/Akanami.FastDev/packages/Prism.Unity.8.0.0.1909
+/src/Akanami.FastDev/packages/Prism.Wpf.8.0.0.1909
+/src/Akanami.FastDev/packages
