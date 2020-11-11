@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8741AA90
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{97E679CB-D8AD-47FB-870C-E792D4A93026}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickStart", "QuickStart", "{947D1AEE-09C9-4274-8824-F35FA13D0007}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.FastDev.Client", "Client\Akanami.FastDev.Client\Akanami.FastDev.Client.csproj", "{0965D775-064E-4E94-9C31-54D7FAAFA633}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akanami.FastDev.Infrastructure", "Common\Akanami.FastDev.Infrastructure\Akanami.FastDev.Infrastructure.csproj", "{980B3104-B6FA-4EE3-A3CB-7747B746AF77}"
@@ -38,7 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{947D1AEE-09C9-4274-8824-F35FA13D0007} = {97E679CB-D8AD-47FB-870C-E792D4A93026}
 		{0965D775-064E-4E94-9C31-54D7FAAFA633} = {78CA7136-5406-4E29-B146-83AB482F217E}
 		{980B3104-B6FA-4EE3-A3CB-7747B746AF77} = {AFA3EC5F-6820-4CA9-9855-3B6F43C63452}
 	EndGlobalSection

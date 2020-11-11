@@ -9,5 +9,9 @@ namespace Akanami.FastDev.Infrastructure.Regions
     public class RegionNames
     {
         public static readonly string MainRegion = "MainRegion";
+
+        public static readonly string MainLeftRegion = "MainLeftRegion";
+
+        public static readonly string MainBodyRegion = "MainBodyRegion";
     }
 }

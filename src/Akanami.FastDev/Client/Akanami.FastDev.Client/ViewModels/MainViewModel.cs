@@ -9,7 +9,7 @@ namespace Akanami.FastDev.Client.ViewModels
 {
     public class MainViewModel : BindableBase
     {
-        string _title = "快速开发工具";
+        string _title = "Akanami Tools";
 
         public string Title
         {

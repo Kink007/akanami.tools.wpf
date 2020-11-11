@@ -84,6 +84,10 @@
                 <Border BorderThickness="0 0 0 1" Grid.ColumnSpan="3" 
                         BorderBrush="{DynamicResource COLOR_SPLITER}" />
             </Grid>
+
+            <ContentControl 
+                prism:RegionManager.RegionName="MainRegion"
+                Grid.Row="1" />
         </Grid>
     </Grid>
 </Window>
