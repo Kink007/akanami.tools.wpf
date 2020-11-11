@@ -21,9 +21,9 @@
     <Grid Background="{DynamicResource COLOR_BODY_BACKGROUND}">
         <Grid.Effect>
             <DropShadowEffect Opacity="0.3" 
-                                  Direction="315" 
-                                  BlurRadius="5" 
-                                  ShadowDepth="5" />
+                              Direction="315" 
+                              BlurRadius="5" 
+                              ShadowDepth="5" />
         </Grid.Effect>
 
         <Grid>
@@ -34,8 +34,7 @@
 
             <!-- Top -->
             <Grid Grid.Row="0" 
-                      Background="{DynamicResource COLOR_TOP_BACKGROUND}"
-                      >
+                  Background="{DynamicResource COLOR_TOP_BACKGROUND}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition />
@@ -59,35 +58,34 @@
                                 Margin="5 0">
                     <!--最小化-->
                     <control:IconButton x:Name="btnWindowMinisize" 
-                                            Icon="&#xe67a;" 
-                                            Margin="5 0"
-                                            Click="btnWindowMinisize_Click"
-                                            />
+                                        Icon="&#xe67a;" 
+                                        Margin="10 0"
+                                        Click="btnWindowMinisize_Click" />
                     <!--最大化-->
                     <control:IconButton x:Name="btnWindowMaxsize"
-                                            Icon="&#xe675;" 
-                                            Margin="5 0"
-                                            Click="btnWindowMaxsize_Click" />
+                                        Icon="&#xe675;" 
+                                        Margin="10 0"
+                                        Click="btnWindowMaxsize_Click" />
                     <!--缩小-->
                     <control:IconButton x:Name="btnWindowShrink" 
-                                            Icon="&#xe676;" 
-                                            Margin="5 0"
-                                            Visibility="Collapsed"
-                                            Click="btnWindowShrink_Click" />
+                                        Icon="&#xe676;" 
+                                        Margin="10 0"
+                                        Visibility="Collapsed"
+                                        Click="btnWindowShrink_Click" />
                     <!--关闭-->
                     <control:IconButton x:Name="btnWindowClose"
-                                            Icon="&#xe685;"
-                                            Margin="5 0"
-                                            Click="btnWindowClose_Click" />
+                                        Icon="&#xe685;"
+                  
+                                        Margin="10 0"
+                                        Click="btnWindowClose_Click" />
                 </StackPanel>
 
                 <Border BorderThickness="0 0 0 1" Grid.ColumnSpan="3" 
                         BorderBrush="{DynamicResource COLOR_SPLITER}" />
             </Grid>
 
-            <ContentControl 
-                prism:RegionManager.RegionName="MainRegion"
-                Grid.Row="1" />
+            <ContentControl prism:RegionManager.RegionName="MainRegion"
+                            Grid.Row="1" />
         </Grid>
     </Grid>
 </Window>
