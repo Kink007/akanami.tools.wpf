@@ -4,7 +4,20 @@
 
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary>
-            <Style x:Key="THEME_TEXTBLOCK_ICON" TargetType="TextBlock">
+            
+            
+            <Style x:Key="THEME_TEXTBLOCK_DEFAULT" TargetType="TextBlock">
+                <Setter Property="FontFamily" Value="微软雅黑" />
+                <Setter Property="TextAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+
+            <Style x:Key="THEME_TEXTBLOCK_TITLE" TargetType="TextBlock" BasedOn="{StaticResource THEME_TEXTBLOCK_DEFAULT}">
+                <Setter Property="Foreground" Value="{DynamicResource COLOR_TITLE}" />
+            </Style>
+
+            <Style x:Key="THEME_TEXTBLOCK_ICON" TargetType="TextBlock" BasedOn="{StaticResource THEME_TEXTBLOCK_DEFAULT}">
                 <Setter Property="FontFamily" Value="../Fonts/#iconfont" />
                 <Setter Property="TextAlignment" Value="Center" />
                 <Setter Property="HorizontalAlignment" Value="Center" />

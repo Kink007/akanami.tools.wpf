@@ -14,6 +14,8 @@
             <SolidColorBrush x:Key="COLOR_SPLITER">#d72323</SolidColorBrush>
             <!--亮色-->
             <SolidColorBrush x:Key="COLOR_FONT">#eeeeee</SolidColorBrush>
+            <!--标题颜色-->
+            <SolidColorBrush x:Key="COLOR_TITLE">#FFFFFF</SolidColorBrush>
         </ResourceDictionary>
     </ResourceDictionary.MergedDictionaries>
 </ResourceDictionary>

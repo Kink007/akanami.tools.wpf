@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Akanami.FastDev.Client.Views"
+        xmlns:prism="http://prismlibrary.com/"
         xmlns:control="clr-namespace:Akanami.FastDev.Infrastructure.Controls;assembly=Akanami.FastDev.Infrastructure"
         mc:Ignorable="d"
-        Title="Akanami的工具" 
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" 
         Height="900" 
         Width="1600"
         WindowStartupLocation="CenterScreen"
@@ -40,6 +42,16 @@
                     <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
+                <StackPanel Grid.Column="0"
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Left"
+                            Margin="15 0 0 0">
+
+                    <TextBlock Text="{Binding Title}"
+                               Style="{StaticResource THEME_TEXTBLOCK_TITLE}"
+                               FontSize="18" />
+                </StackPanel>
+                
                 <!--最大化、最小化、关闭-->
                 <StackPanel Grid.Column="2" 
                                 Orientation="Horizontal"
