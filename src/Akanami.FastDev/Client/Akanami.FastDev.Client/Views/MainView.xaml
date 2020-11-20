@@ -27,65 +27,74 @@
         </Grid.Effect>
 
         <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="50" />
-                <RowDefinition Height="Auto" />
-            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
 
-            <!-- Top -->
-            <Grid Grid.Row="0" 
+            <Grid Grid.Column="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <!-- Top -->
+                <Grid Grid.Row="0" 
                   Background="{DynamicResource COLOR_TOP_BACKGROUND}">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0"
+                    <StackPanel Grid.Column="0"
                             Orientation="Horizontal"
                             HorizontalAlignment="Left"
                             Margin="15 0 0 0">
 
-                    <TextBlock Text="{Binding Title}"
+                        <TextBlock Text="{Binding Title}"
                                Style="{StaticResource THEME_TEXTBLOCK_TITLE}"
                                FontSize="18" />
-                </StackPanel>
-                
-                <!--最大化、最小化、关闭-->
-                <StackPanel Grid.Column="2" 
+                    </StackPanel>
+
+                    <!--最大化、最小化、关闭-->
+                    <StackPanel Grid.Column="2" 
                                 Orientation="Horizontal"
                                 HorizontalAlignment="Right"
                                 Margin="5 0">
-                    <!--最小化-->
-                    <control:IconButton x:Name="btnWindowMinisize" 
+                        <!--最小化-->
+                        <control:IconButton x:Name="btnWindowMinisize" 
                                         Icon="&#xe67a;" 
                                         Margin="10 0"
                                         Click="btnWindowMinisize_Click" />
-                    <!--最大化-->
-                    <control:IconButton x:Name="btnWindowMaxsize"
+                        <!--最大化-->
+                        <control:IconButton x:Name="btnWindowMaxsize"
                                         Icon="&#xe675;" 
                                         Margin="10 0"
                                         Click="btnWindowMaxsize_Click" />
-                    <!--缩小-->
-                    <control:IconButton x:Name="btnWindowShrink" 
+                        <!--缩小-->
+                        <control:IconButton x:Name="btnWindowShrink" 
                                         Icon="&#xe676;" 
                                         Margin="10 0"
                                         Visibility="Collapsed"
                                         Click="btnWindowShrink_Click" />
-                    <!--关闭-->
-                    <control:IconButton x:Name="btnWindowClose"
+                        <!--关闭-->
+                        <control:IconButton x:Name="btnWindowClose"
                                         Icon="&#xe685;"
                   
                                         Margin="10 0"
                                         Click="btnWindowClose_Click" />
-                </StackPanel>
+                    </StackPanel>
 
-                <Border BorderThickness="0 0 0 1" Grid.ColumnSpan="3" 
+                    <Border BorderThickness="0 0 0 1" Grid.ColumnSpan="3" 
                         BorderBrush="{DynamicResource COLOR_SPLITER}" />
-            </Grid>
+                </Grid>
 
-            <ContentControl prism:RegionManager.RegionName="MainRegion"
+                <ContentControl prism:RegionManager.RegionName="MainRegion"
                             Grid.Row="1" />
+
+            </Grid>
         </Grid>
     </Grid>
 </Window>

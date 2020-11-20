@@ -5,13 +5,13 @@
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary>
             <!--矢量图标颜色-->
-            <SolidColorBrush x:Key="COLOR_ICON">#FFFFFF</SolidColorBrush>
-            <!--TOP背景颜色(深黑)-->
-            <SolidColorBrush x:Key="COLOR_TOP_BACKGROUND">#303841</SolidColorBrush>
+            <SolidColorBrush x:Key="COLOR_ICON">#000000</SolidColorBrush>
+            <!--TOP背景颜色(白色)-->
+            <SolidColorBrush x:Key="COLOR_TOP_BACKGROUND">#FFFFFF</SolidColorBrush>
             <!--Body主颜色(浅黑)-->
-            <SolidColorBrush x:Key="COLOR_BODY_BACKGROUND">#3a4750</SolidColorBrush>
+            <SolidColorBrush x:Key="COLOR_BODY_BACKGROUND">#FFFFFF</SolidColorBrush>
             <!--分隔符(红)-->
-            <SolidColorBrush x:Key="COLOR_SPLITER">#d72323</SolidColorBrush>
+            <SolidColorBrush x:Key="COLOR_SPLITER">#FFFFFF</SolidColorBrush>
             <!--亮色-->
             <SolidColorBrush x:Key="COLOR_FONT">#eeeeee</SolidColorBrush>
             <!--标题颜色-->
